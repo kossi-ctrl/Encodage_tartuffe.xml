@@ -9,7 +9,9 @@ Ed. 2009 & 1669.
 # Structure du projet
 
 -Métadonnées 
+
 -Extraction et encodage du texte de base
+
 -Comparaison et encodage de svariantes
 
 ---
