@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>le Tartuffe ou l'imposteur</title>
+            <author>Molière</author>
+            <editor resp="Présentation,notes et dossier">
+               <persName>Anne Princen</persName>
+            </editor>
+            <editor resp="Cahier photo">
+               <persName>Elise Sultan</persName>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher n="1">Editions flammarion</publisher>
+            <date>2009</date>
+            <idno type="ISBN">9782080413369</idno>
+            <idno type="ISBN-Web">9782080417602</idno>
+            <idno type="ISBN-Numérique">9782080417596</idno>
+            <publisher n="2,3,4">edition revue</publisher>
+            <date>2013,2019 et 2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Original">1669</witness>
+               <witness xml:id="Flammarion">2009,2013,2019 et 2023</witness>
+            </listWit>
+            <bibl>
+               <title>Le tartvffe,ov l'impostevr, comedie</title>
+               <author>I.B.P. de moliere</author>
+               <date when="1669">M.DC.LXIX</date>
+               <publisher>aux despens de l'autheur</publisher>
+               <pubPlace>Paris</pubPlace>
+               <distributor>IEAN RIBOV</distributor>
+               <placeName>au Palais, vis-à-vis la Porte de l'Eglise de la Sainte Chapelle,à l'image
+                  S.Louis.</placeName>
+               <note>Avec privilege dv roy</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Encodage du théâtre de Molière datant de 1669 avec pour de texte de base une édition de
+            2009</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Français</language>
+         </langUsage>
+         <creation when="2025-10-27"/>
+      </profileDesc>
+      <revisionDesc>
+         <change who="Étudiant">
+            <name>ZANGBE Kossi</name>
+            <desc>Encodage de la comédie: le tartuffe de molière</desc>
+            <affiliation>Université de Tours-CESR</affiliation>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+        
+      </front>
+      <body>
+         
+            <castList>
+               
+               <head>          
+                  <orig>Actevrs.</orig>
+                  <reg>Personnages.</reg>    
+               </head>
+               
+               <castItem xml:id="PERNELLE"><orig>MADAME</orig><reg>M.</reg>PERNELLE,
+                  <role><orig>Mere</orig><reg>mère</reg>d'Orgon.</role>
+               </castItem>
+
+               <castItem xml:id="ORGON">ORGON, 
+                  <role><orig>Mary</orig><reg>mari</reg>d'Elmire.</role>
+               </castItem>
+
+               <castItem xml:id="ELMIRE">ELMIRE,
+                 <role> <orig>Femme</orig><reg>femme</reg>d'Orgon</role>
+               </castItem>
+
+               <castItem xml:id="DAMIS">DAMIS, 
+                  <role><orig>Fils</orig><reg>fils</reg>d'Orgon</role>
+               </castItem>
+             
+               <castItem xml:id="MARIANE">MARIANE, 
+                  <role><orig>Fille</orig><reg>fille</reg>d'Orgon
+                     et<orig>Amante</orig><reg>amante</reg>de<orig>Valere.</orig><reg>Valère.</reg></role>
+               </castItem>
+
+               <castItem xml:id="VALERE"><orig>VALERE,Amant</orig>
+                 <role> <reg>VALÈRE,amant</reg>de Mariane.</role>
+               </castItem>
+
+               <castItem xml:id="CLEANTE"><orig>CLEANTE,</orig><reg>CLÉANTE,</reg>
+                  <role><orig>Beaufrere</orig><reg>beau-frère</reg>d'Orgon.</role>
+               </castItem>
+
+               <castItem xml:id="TARTUFFE"><orig>TARTVFFE,</orig><reg>TARTUFFE,</reg>
+                  <role><orig>Faux Deuot.</orig><reg>faux dévot.</reg></role>
+               </castItem>
+
+               <castItem xml:id="DORINE">DORINE,
+                  <role><orig>Suiuante</orig><reg>suivante</reg>de Mariane.</role>
+               </castItem>
+
+               <castItem xml:id="MONSIEUR.LOYAL"><orig>MONSIEVR</orig><reg>MONSIEUR </reg>LOYAL,
+                     <role><orig>Sergent.</orig><reg>sergent.</reg></role>
+               </castItem>
+
+               <castItem xml:id="EXEMPT"><orig>VN</orig><reg>UN</reg>EXEMPT.</castItem>
+
+               <castItem xml:id="FLIPOTE">FLIPOTE, 
+                 <role> <orig>Seruante.</orig><reg>servante</reg>deMadame Pernelle.</role>
+               </castItem>
+               
+            </castList>
+
+            <stage>La<orig>Scene</orig><reg>Scène</reg>est à Paris.</stage>
+            
+         
+
+
+         <div type="ACTE">
+            <head>ACTE PREMIER</head>    
+         </div>
+            
+         <div type="SCENE">
+            <head><orig>SCENE</orig><reg>Scène</reg> <orig>PREMIERE</orig><reg>première</reg></head>
+            <stage><orig>MADAME</orig><reg>M.</reg> PERNELLE, ET FLIPOTE sa <orig>Seruante</orig><reg>servante</reg>,ELMIRE, MARIANE,DORINE, DAMIS,<orig>CLEANTE</orig><reg>CLÉANTE</reg>.</stage>
+
+            <sp who="#PERNELLE">
+              <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="1">Allons, Flipote, allons ; que d'eux je me
+                        <orig>déliure.</orig><reg>délivre.</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#ELMIRE">
+               <speaker>ELMIRE</speaker>
+               <lg>
+                  <l n="2">Vous marchez <orig>d'vn</orig><reg>d'un</reg> tel pas,qu'on a peine à
+                     vous <orig>suiure.</orig>
+                     <reg>suivre.</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="3">Laissez, ma Bru, laissez; ne venez pas plus loin;</l>
+                  <l n="4">Ce sont toütes façons,dont <orig>ie n'ay</orig><reg>je n'ai</reg> pas
+                     besoin.</l>
+               </lg>
+            </sp>
+
+            <sp who="#ELMIRE">
+               <speaker>ELMIRE</speaker>
+               <lg>
+                  <l n="5">De ce que l'on vous doit <orig>enuers</orig>
+                     <reg>envers</reg> vous on s'acquitte.</l>
+                  <l n="6">Mais, ma <orig>Mere,</orig>
+                     <reg>mère,</reg> d'où vient que vous sortez si <orig>viste?</orig>
+                     <reg>vite?</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="7">C'est que <orig>ie</orig>
+                     <reg>je</reg> ne puis voir tout ce <orig>ménage-cy</orig>
+                     <reg>ménage -ci</reg>
+                  </l>
+                  <l n="8">Et que de me complaire, on ne prend nul <orig>soucy.</orig>
+                     <reg>souci.</reg>
+                  </l>
+                  <l n="9">
+                     <orig>Oûy,</orig>
+                     <reg>Oui,</reg> je sors de chez vous fort mal édifiée; </l>
+                  <l n="10"> Dans toutes mes leçons, <orig>Py</orig>
+                     <reg>j'y</reg> suis contrariée; </l>
+                  <l n="11">On n’y respecte rien; chacun y parle haut,</l>
+                  <l n="12">Et c’est, tout justement, la Cour du <orig>Roy Petaut.</orig>
+                     <reg>roi Pétaud</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker>DORINE</speaker>
+               <lg>
+                  <l n="13">Si...</l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="14">Vous <orig>estes,Mamie,vne Fille Suiuante</orig>
+                     <reg>êtes,mamie,une fille suivante</reg>
+                  </l>
+                  <l n="15"><orig>Vn</orig>
+                     <reg>Un</reg> peu trop forte en gueule,et fort impertinente: </l>
+                  <l n="16">Vous vous <orig>meslez</orig>
+                     <reg>mêlez</reg> sur tout de dire <orig>vostre auis.</orig>
+                     <reg>Votre avis.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#DAMIS">
+               <speaker>DAMIS</speaker>
+               <lg>
+                  <l n="17">Mais...</l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="18"> Vous <orig>estes vn</orig>
+                     <reg>êtes</reg> en trois lettres, mon <orig>Fils</orig>
+                     <reg>fils</reg>
+                  </l>
+                  <l n="19">C'est <orig>moy</orig>
+                     <reg>moi</reg> qui vous le dis, qui suis <orig>vostre Grand Mere</orig>
+                     <reg>votre grand-mère;</reg>
+                  </l>
+                  <l n="20">Et <orig>Pay</orig>
+                     <reg>j'ai</reg> prédit cent fois à mon <orig>Fils,vostre Pere,</orig>
+                     <reg>fils,votre père,</reg>
+                  </l>
+                  <l n="21">Que vous preniez tout <orig>l'aird'vn</orig>
+                     <reg>l'air d'un</reg> méchant <orig>Garnement,</orig>
+                     <reg>garnement,</reg>
+                  </l>
+                  <l n="22">Et ne <orig>luy</orig>
+                     <reg>lui</reg> donneriez jamais que du tourment. </l>
+               </lg>
+            </sp>
+
+            <sp who="#MARIANE">
+               <speaker>MARIANE</speaker>
+               <lg>
+                  <l n="23">
+                     <orig>Ie croy...</orig>
+                     <reg>Je crois...</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="24">Mon Dieu, sa <orig>Soeur,</orig>
+                     <reg>soeur,</reg> vous faites <orig>ladiscrette,</orig>
+                     <reg>la discrète,</reg>
+                  </l>
+                  <l n="25">Et vous n'y touchez pas, tant vous semblez doucette;</l>
+                  <l n="26">
+                     <orig>Maisil n'est,</orig>
+                     <reg>Mais il n'est,</reg> comme on dit, pire eau que l'eau qui dort. </l>
+                  <l n="26">Et vous menez <orig>sous-chape,vn</orig>
+                     <reg>sous chape,un</reg> que <orig>ie</orig>
+                     <reg>je</reg> hais fort. </l>
+               </lg>
+            </sp>
+
+            <sp who="#ELMIRE">
+              <speaker> ELMIRE</speaker>
+               <lg>
+                  <l n="27"> Mais, ma <orig>Mere...</orig>
+                     <reg>mère...</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="28">Ma <orig>Bru,</orig>
+                     <reg>bru,</reg> qu'il ne vous en déplaise, </l>
+                  <l n="29">
+                     <orig>Vostre</orig>
+                     <reg>Votre</reg> conduite en tout est <orig>tout-à-fait mauuaise;</orig>
+                     <reg>tout à fait mauvaise;</reg>
+                  </l>
+                  <l n="30">Vous <orig>déuriez</orig>
+                     <reg>devriez</reg> leur mettre <orig>vn</orig>
+                     <reg>un</reg> bon exemple aux yeux, </l>
+                  <l n="31">Et leur défunte <orig>Mere</orig>
+                     <reg>mère</reg> en <orig>vsoit</orig>
+                     <reg>usait</reg> beaucoup mieux. </l>
+                  <l n="32">Vous <orig>estes dépenciere,</orig>
+                     <reg>êtes dépensière,</reg> et cet <orig>estat</orig>
+                     <reg>état</reg> me blesse, </l>
+                  <l n="33">Que vous alliez <orig>vestue</orig>
+                     <reg>vêtue</reg> ainsi qu' <orig>une Princesse.</orig>
+                     <reg>une princesse.</reg>
+                  </l>
+                  <l n="34">Quiconque à son <orig>Mary</orig>
+                     <reg>mari</reg> veut plaire seulement, </l>
+                  <l n="35">Ma <orig>Bru</orig><reg>bru</reg>n'a pas pas besoin de tant
+                     d'ajustement.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="36">Mais,Madame <orig>apres</orig><reg>aorès</reg>tout...</l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="37">Pour vous Monsieur son <orig>Frere,</orig><reg>frère,</reg></l>
+                  <l n="38"><orig>le </orig><reg>Je</reg> vous estime fort, vous aime, et vous
+                        <orig>réuere:</orig>
+                     <reg>révère ;</reg>
+                  </l>
+                  <l n="39">Mais enfin, si <orig>Pestois</orig><reg>j'étais</reg> de mon
+                        <orig>Fils,</orig>
+                     <reg>fils</reg> son <orig>Epous,</orig>
+                     <reg>époux,</reg>
+                  </l>
+                  <l n="40"><orig>le</orig><reg>Je</reg>vous<orig>prirois</orig><reg>prierais</reg>
+                     bien fort de n'entrer point chez nous. </l>
+                  <l n="41">Sans cesse vous<orig>preschez</orig><reg>prêchez</reg> des
+                        <orig>Maximes</orig>
+                     <reg>maximes</reg> de <orig>viure</orig>
+                     <reg>vivre</reg>
+                  </l>
+                  <l n="42">Qui par d'<orig>honnestes Gens</orig><reg>honnêtes gens</reg> ne se
+                        <orig>doiuent</orig>
+                     <reg>doivent</reg> point <orig>suiure:</orig>
+                     <reg>suivre:</reg>
+                  </l>
+                  <l n="43">
+                     <orig>le</orig>
+                     <reg>Je</reg> vous <orig>parlevn </orig>
+                     <reg>parle un</reg> peu franc,mais c'est là mon humeur, </l>
+                  <l n="44">Et <orig>ie</orig><reg>je</reg> ne <orig>mache</orig>
+                     <reg>mâche</reg> point ce que <orig>fay</orig>
+                     <reg>j'ai</reg> sur le coeur. </l>
+               </lg>
+            </sp>
+
+            <sp who="#DAMIS">
+              <speaker> DAMIS</speaker>
+               <lg>
+                  <l n="45"><orig>Vostre</orig><reg>Votre</reg> Monsieur Tartuffe est
+                        <orig>Bienheureux</orig>
+                     <reg>bienheureux</reg> sans doute... </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="46">Cest <orig>vn Homme</orig><reg>un homme</reg> de bien,qu'il faut que
+                     l'on écoute; </l>
+                  <l n="47">Et<orig>ie</orig><reg>je</reg>ne puis souffri, sans me mettre en
+                        <orig>courrous,</orig>
+                     <reg>courroux,</reg>
+                  </l>
+                  <l n="48">De le voir querellé par <orig>vn Fou</orig>
+                     <reg>un fou</reg> comme vous. </l>
+               </lg>
+            </sp>
+
+            <sp who="#DAMIS">
+              <speaker> DAMIS</speaker>
+               <lg>
+                  <l n="49">
+                     <orig>Quoy! ie souffriray moy,</orig>
+                     <reg>Quoi!je souffrirai, moi</reg> qu' <orig>vn Cagot</orig>
+                     <reg>un cagot</reg> de critique </l>
+                  <l n="50"> Vienne <orig>vsurper ceans vn pouuoir</orig>
+                     <reg>usurper céans un pouvoir</reg> tyrannique? </l>
+                  <l n="51"> Et que nous ne puissions à rien nous <orig>diuertir,</orig>
+                     <reg>divertir,</reg>
+                  </l>
+                  <l n="52"> Si ce beau Monsieur-là n’y daigne consentir ? </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker>DORINE</speaker>
+               <lg>
+                  <l n="53"> S'il le faut écouter, et croire à ses <orig>Maximes,</orig>
+                     <reg>maximes,</reg>
+                  </l>
+                  <l n="54"> On ne peut faire rien, qu'on ne fasse des crimes, </l>
+                  <l n="55"> Car il contrôle tout, ce <orig>Critique zélé.</orig>
+                     <reg>critique zélé.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="56"> Et tout ce qu'il contrôle, est fort bien contrôlé. </l>
+                  <l n="57"> C'est au chemin du Ciel qu'il prétend vous conduire ; </l>
+                  <l n="58"> Et mon <orig>Fils,</orig>
+                     <reg>fils,</reg> à l'aimer, vous <orig>deuroit </orig>
+                     <reg>devrait</reg> tous induire. </l>
+               </lg>
+            </sp>
+
+            <sp who="#DAMIS">
+              <speaker> DAMIS</speaker>
+               <lg>
+                  <l n="59"> Non, voyez-vous, ma <orig>Mere, </orig>
+                     <reg>mère,</reg> il n'est <orig>Pere ny</orig>
+                     <reg>père ni</reg> rien </l>
+                  <l n="60"> Qui me puisse obliger à <orig>luy</orig>
+                     <reg>lui</reg> vouloir du bien. </l>
+                  <l n="61">
+                     <orig>Ie trahirois </orig>
+                     <reg>Je trahirais</reg> mon coeur de parler d'autre sorte; </l>
+                  <l n="62"> Sur ses façons de faire, à tous coups <orig>ie</orig>
+                     <reg>je</reg> m'emporte; </l>
+                  <l n="63">
+                     <orig>l'en préuois vne</orig>
+                     <reg>J'en prévois une</reg> suite, et qu' <orig>auec ce Pié-plat</orig>
+                     <reg>avec ce pied-plat</reg>
+                  </l>
+                  <l n="64"> Il faudra que j'en vienne à quelque grand éclat, </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker>DORINE</speaker>
+               <lg>
+                  <l n="65"> Certes c'est <orig>vne</orig>
+                     <reg>une</reg> chose aussi qui scandalise, </l>
+                  <l n="66"> De voir qu' <orig>vn Inconnu ceans </orig>
+                     <reg>un inconnu céans</reg> s'impatronise, </l>
+                  <l n="67"> Qu' <orig>vn Geux</orig>
+                     <reg>un geux</reg> qui quand il vint, <orig>n’auoit</orig>
+                     <reg>n'avait</reg> pas de souliers </l>
+                  <l n="68"> Ét dont l'habit entier <orig>valoit</orig>
+                     <reg>valait</reg> bien six deniers, </l>
+                  <l n="69"> En vienne <orig>jusques-là,</orig>
+                     <reg>jusque-là</reg> que de se <orig>méconnoistre, </orig>
+                     <reg>méconnaître,</reg>
+                  </l>
+                  <l n="70"> De contrarier tout, et de faire le <orig> Maistre.</orig>
+                     <reg>maître.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="71">
+                     <app>
+                        <lem wit="#Original">Hé,</lem>
+                        <rdg wit="#Flammarion">Hé!</rdg>
+                     </app>
+                     <orig>mercy</orig>
+                     <reg>merci</reg> de ma <app>
+                        <lem wit="#Original">vie</lem>
+                        <rdg wit="#Flammarion">vie!</rdg>
+                     </app> il en <orig>iroit</orig>
+                     <reg>irait</reg> bien mieux, </l>
+                  <l n="72"> Si tout se <orig>gouuernoit </orig>
+                     <reg>gouvernait</reg> par ses ordres pieux. </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+              <speaker> DORINE</speaker>
+               <lg>
+                  <l n="73"> Il passe pour <orig>vn Saint </orig>
+                     <reg>un saint</reg> dans <orig>vostre</orig>
+                     <reg>votre</reg> fantaisie ; </l>
+                  <l n="74"> Tout son fait, croyez-moi, n'est rien qu'hypocrisie. </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="74">Voyez la langue !</l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker> DORINE</speaker>
+               <lg>
+                  <l n="75">
+                     <orig>A luy, </orig>
+                     <reg>À lui,</reg> non plus qu'à son Laurent, </l>
+                  <l n="76">
+                     <orig>Ie </orig>
+                     <reg>Je</reg> ne me <orig>firois, moy,</orig>
+                     <reg>fierais, moi,</reg> que sur <orig>vn </orig>
+                     <reg>un</reg> bon <orig>Garant.</orig>
+                     <reg>garant.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>
+               <lg>
+                  <l n="77">
+                     <orig>l'</orig>
+                     <reg>J'</reg> ignore ce qu'au fond le <orig> Seruiteur</orig>
+                     <reg>serviteur</reg> peut <orig> estre ;</orig>
+                     <reg>être;</reg>
+                  </l>
+                  <l n="78"> Mais pourê <orig>Homme</orig>
+                     <reg>homme</reg> de bien, <orig> ie</orig>
+                     <reg>je</reg> garantis le <orig> Maistre. </orig>
+                     <reg>maître.</reg>
+                  </l>
+                  <l n="79"> Vous ne <orig>luy </orig>
+                     <reg>lui</reg> voulez mal, et ne le rebutez, </l>
+                  <l n="80"> Qu’à cause qu'il vous dit à tous vos <orig> veritez. </orig>
+                     <reg>vérités.</reg>
+                  </l>
+                  <l n="81"> C'est contre le <orig>Peché </orig>
+                     <reg>péché</reg> que son cœur se courrouce, </l>
+                  <l n="82"> Et l' <orig>interest </orig>
+                     <reg>Intérêt</reg> du Ciel est tout ce qui le pousse, </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker> DORINE</speaker>
+               <lg>
+                  <l n="83">
+                     <orig> Oùy; </orig>
+                     <reg>Oui;</reg> mais <orig>pourquoy,sur tout,</orig>
+                     <reg>pourquoi,surtout,</reg> depuis <orig>vn </orig>
+                     <reg>un</reg> certain temps, </l>
+                  <l n="84"> Ne <orig>sçauroit il</orig>
+                     <reg>saurait-il</reg> souffrir qu'aucun hante <orig> ceans ?</orig>
+                     <reg>céans?</reg>
+                  </l>
+                  <l n="85"> En <orig>quoy </orig>
+                     <reg>quoi</reg> blesse le Ciel <orig> vne </orig>
+                     <reg>une</reg> visite <orig> honneste,</orig>
+                     <reg>honnête,</reg>
+                  </l>
+                  <l n="86"> Pour en faire <orig>vn </orig>
+                     <reg>un</reg> vacarme à nous rompre la <orig>teste ? </orig>
+                     <reg>tête?</reg>
+                  </l>
+                  <l n="87"> Veut-on que là-dessus je m'explique entre nous? </l>
+                  <l n="88">
+                     <orig>le croy </orig>
+                     <reg>Je crois</reg> que de Madame il est, ma <orig>foy, jalous. </orig>
+                     <reg>foi,jaloux.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+              <speaker> PERNELLE</speaker>
+               <lg>
+                  <l n="89"> Taisez-vous, et songez aux choses que vous dites. </l>
+               </lg>
+               <lg>
+                  <l n="90"> Ce n’est pas <orig> luy</orig>
+                     <reg>lui</reg> tout seul qui blâme ces visites; </l>
+                  <l n="91"> Tout ce tracas qui suit les gens que vous hantez, </l>
+               </lg>
+               <lg>
+                  <l n="92"> Ces <orig> Carosses </orig>
+                     <reg>carosses</reg> sans cesse à la <orig>Porte plantez, </orig>
+                     <reg>porte plantés,</reg>
+                  </l>
+                  <l n="93"> Et de tant de <orig> Laquais</orig>
+                     <reg>laquais</reg> le bruyant assemblage, </l>
+                  <l n="94"> Font <orig> vn </orig>
+                     <reg>un</reg> éclat fâcheux dans tout le voisinage. </l>
+                  <l n="95">
+                     <orig> le </orig>
+                     <reg>Je</reg> veux croire qu'au fond il ne se passe rien; </l>
+                  <l n="96"> Mais enfin on en parle, et cela n'est pas bien, </l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="97">
+                     <app>
+                        <lem wit="#Original"> Hé,</lem>
+                        <rdg wit="#Flammarion">Hé!</rdg>
+                     </app> voulez-vous, Madame, <orig>empescher</orig>
+                     <reg>empêcher</reg> qu’on ne cause ? </l>
+                  <l n="98"> Ce <orig>seroit</orig>
+                     <reg>serait</reg> dans la vie <orig>vne </orig>
+                     <reg>une</reg> fâcheuse chose, </l>
+                  <l n="98"> Si pour les sots discours où l'on peut <orig> estre</orig>
+                     <reg>être</reg> mis, </l>
+                  <l n="99"> Il <orig>faloit</orig>
+                     <reg>fallait</reg> renoncer à ses meilleurs <orig>Amis : </orig>
+                     <reg>amis.</reg>
+                  </l>
+                  <l n="100"> Et quand <orig>mesme </orig>
+                     <reg>même</reg> on <orig>pourroit </orig>
+                     <reg>pourrait</reg> se résoudre à le faire, </l>
+                  <l n="101"> Croiriez-vous obliger tout le monde à se taire ? </l>
+                  <l n="102"> Contre la <orig>Médisance</orig>
+                     <reg>médisance</reg> il n’est point de <orig> rampart; </orig>
+                     <reg>rempart;</reg>
+                  </l>
+                  <l n="103">
+                     <orig>A </orig>
+                     <reg>À</reg> tous les sots caquets n'ayons donc nul égard; </l>
+                  <l n="104"> Efforçons-nous de <orig> viure auec</orig>
+                     <reg>vivre avec</reg> toute innocence, </l>
+                  <l n="105"> Et laissons aux <orig> Causeurs vne</orig>
+                     <reg>causeurs une</reg> pleine licence. </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+             <speaker>  DORINE</speaker>
+               <lg>
+                  <l n="106"> Daphné, <orig>nostre</orig>
+                     <reg>notre</reg> voisine, et son petit <orig>Epous,</orig>
+                     <reg>époux</reg>
+                  </l>
+                  <l n="107">Ne <orig>seroient-ils </orig>
+                     <reg>seraient-ils</reg> point ceux qui parlent mal de nous ?</l>
+                  <l n="108">Ceux de qui la conduite offre le plus à rire,</l>
+                  <l n="109"> Sont <orig>toûjours</orig>
+                     <reg>toujours</reg> sur <orig>autruy</orig>
+                     <reg>autrui</reg> les premiers à médire; </l>
+                  <l n="110">Ils ne manquent jamais de saisir promptement</l>
+                  <l n="111"> L'apparente lueur du moindre attachement,</l>
+                  <l n="112"> D'en semer la <orig>nouuelle auec </orig>
+                     <reg>nouvelle avec</reg> beaucoup de <orig> joye,</orig>
+                     <reg>joie,</reg>
+                  </l>
+                  <l n="113">Et d'y donner le tour qu’ils veulent qu’on ÿ <orig>croye.</orig>
+                     <reg>croie</reg>
+                  </l>
+                  <l n="114"> Des actions d' <orig>autruy</orig>
+                     <reg>autrui</reg> teintes de leurs couleurs,</l>
+                  <l n="115">Ils pensent dans le <orig>Monde authoriser </orig>
+                     <reg>monde autoriser</reg> les leurs,</l>
+                  <l n="116"> Et sous le faux espoir de quelque ressemblance,</l>
+                  <l n="117"> Aux intrigues qu'ils ont, donner de l'innocence,</l>
+                  <l n="118">Ou faire ailleurs tomber quelques traits <orig>partagez</orig>
+                     <reg>partagés</reg>
+                  </l>
+                  <l n="119"> De ce blâme public dont ils sont trop <orig> chargez.</orig>
+                     <reg>chargés.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+              <speaker> PERNELLE</speaker>
+               <lg>
+                  <l n="120">Tous ces raisonnemens ne <app>
+                        <lem wit="#Original">sont</lem>
+                        <rdg wit="#Flammarion">font</rdg>
+                     </app> rien à l'affaire :</l>
+                  <l n="121">On <orig> sçait </orig>
+                     <reg>sait</reg> qu'Orante <orig>méne vne</orig>
+                     <reg>mène une</reg> vie exemplaire;</l>
+                  <l n="122">Tous ses soins vont au Ciel, et <orig>ay sceu</orig>
+                     <reg>j'ai su</reg> par des <orig>Gens,</orig>
+                     <reg>gens,</reg>
+                  </l>
+                  <l n="123"> Qu'elle condamne fort le train qui vient <orig>ceans.</orig>
+                     <reg>céans.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker> DORINE</speaker>
+               <lg>
+                  <l n="124"> L'exemple est admirable, et cette Dame est bonne :</l>
+                  <l n="125">I1 est <orig>vray </orig>
+                     <reg>vrai</reg> qu'elle vit en <orig> austere Personne;</orig>
+                     <reg>austère personne;</reg>
+                  </l>
+                  <l n="126"> Mais l'âge, dans son <orig>ame,</orig>
+                     <reg>âme,</reg> a mis ce <orig> zele </orig>
+                     <reg>zèle</reg> ardent, </l>
+                  <l n="127"> Et l'on <orig> sçait </orig>
+                     <reg>sait</reg> qu’elle est <orig> Prude, </orig>
+                     <reg>prude,</reg> à son corps <orig> defendant.</orig>
+                     <reg>défendant.</reg>
+                  </l>
+                  <l n="128"> Tant qu'elle a pu des Cœurs attirer les hommages,</l>
+                  <l n="129"> Elle a fort bien <orig> joûy </orig>
+                     <reg>joui</reg> de tous ses <orig>auantages :</orig>
+                     <reg>avantages:</reg>
+                  </l>
+                  <l n="130">Mais voyant de ses yeux tous les <orig> brillans </orig>
+                     <reg>brillants</reg> baisser, </l>
+                  <l n="131"> Au monde qui la quitte, elle veut renoncer;</l>
+                  <l n="132"> Et du voile pompeux d’ <orig>vne</orig>
+                     <reg>une</reg> haute sagesse, </l>
+                  <l n="133"> De ses attraits <orig> vsez,</orig>
+                     <reg>usés</reg> déguiser la <orig>foiblesse.</orig>
+                     <reg>faiblesse.</reg>
+                  </l>
+                  <l n="134"> Ce sont-là les retours des <orig>Coquettes</orig>
+                     <reg>coquettes</reg> du temps. </l>
+                  <l n="135"> Il leur est dur de voir <orig>deserter</orig>
+                     <reg>déserter</reg> les <orig>Galans.</orig>
+                     <reg>galants.</reg>
+                  </l>
+                  <l n="136"> Dans <orig> va</orig>
+                     <reg>un</reg> tel abandon, leur sombre <orig> inquietude</orig>
+                     <reg>inquiétude</reg>
+                  </l>
+                  <l n="137"> Ne voit d'autre recours que le <orig>mestier</orig>
+                     <reg>métier</reg> de <orig> Prude ;</orig>
+                     <reg>prude;</reg>
+                  </l>
+                  <l n="138">Et la <orig>seuerité </orig>
+                     <reg>sévérité</reg> de ces <orig> Femmes</orig>
+                     <reg>femmes</reg> de bien, </l>
+                  <l n="139">Censure toute chose, et ne pardonne à rien</l>
+                  <l n="140">Hautement, d' <orig> vn </orig>
+                     <reg>un</reg> chacun, elles blâment la vie,</l>
+                  <l n="141"> Non point par charité, mais par <orig>vn </orig>
+                     <reg>un</reg> trait d’ <orig>enuie,</orig>
+                     <reg>envie,</reg>
+                  </l>
+                  <l n="142"> Qui ne <orig>sçauroit</orig>
+                     <reg>saurait</reg> souffrir qu' <orig> vne </orig>
+                     <reg>une</reg> autre ait les plaisirs</l>
+                  <l n="143">Dont le penchant de l’âge a sevré leurs <orig>desirs.</orig>
+                     <reg>désirs.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#PERNELLE">
+               <speaker>PERNELLE</speaker>  
+               <lg>
+                  <l n="144">
+                     <orig>Voila </orig>
+                     <reg>Voilà</reg> les contes bleus qu’il vous faut, pour vous plaire. </l>
+                  <l n="145">Ma <orig> Bru,</orig>
+                     <reg>bru,</reg> l’on est, chez vous, contrainte de se taire; </l>
+                  <l n="146"> Car, Madame, à jaser, tient le dé tout le jour</l>
+                  <l n="147"> Mais enfin, <orig>ie prétens</orig>
+                     <reg>je prétends</reg> discourir à mon tour. </l>
+                  <l n="148">
+                     <orig>le </orig>
+                     <reg>Je</reg> vous <orig>dy </orig>
+                     <reg>dis</reg> que mon <orig> Fils </orig>
+                     <reg>fils</reg> n'a rien fait de plus sage, </l>
+                  <l n="149">Qu’en recueillant chez <orig>soy </orig>
+                     <reg>soi</reg> ce <orig>deuot Personnage;</orig>
+                     <reg>dévot personnage;</reg>
+                  </l>
+                  <l n="150"> Que le Ciel au besoin l’a <orig> ceans enuoyé,</orig>
+                     <reg>céans envoyé,</reg>
+                  </l>
+                  <l n="151"> Pour redresser à tous <orig> vosire </orig>
+                     <reg>votre</reg> esprit <orig>fouruoyé</orig>
+                     <reg>fourvoyé</reg>
+                  </l>
+                  <l n="152">Que pour <orig>vostre</orig>
+                     <reg>votre</reg> salut vous le devez entendre, </l>
+                  <l n="153">Et qu’il ne reprend rien, qui ne soit à reprendre.</l>
+                  <l n="154">Ces visites, ces bals, ces <orig> Conuersations,</orig>
+                     <reg>conversations,</reg>
+                  </l>
+                  <l n="155"> Sont, du malin Esprit, toutes <orig> inuentions.</orig>
+                     <reg>inventions.</reg>
+                  </l>
+                  <l n="156"> Là jamais on n'entend de pieuses paroles, </l>
+                  <l n="157"> Ce sont propos oisifs, chansons et fariboles ;</l>
+                  <l n="158"> Bien <orig>souuent </orig>
+                     <reg>souvent</reg> le <orig> Prochain</orig>
+                     <reg>prochain</reg> en a sa bonne part, </l>
+                  <l n="159"> Et l’on y <orig>sçait</orig>
+                     <reg>sait</reg> médire, et du tiers, et du quart. </l>
+                  <l n="160"> Enfin les <orig> Gens censez </orig>
+                     <reg>gens sensés</reg> ont leurs <orig> testes</orig>
+                     <reg>têtes</reg> troublées, </l>
+                  <l n="161"> De la confusion de telles assemblées</l>
+                  <l n="162"> Mille caquets <orig>diuers</orig>
+                     <reg>divers</reg> s’y font en moins de rien ; </l>
+                  <l n="163"> Et comme l'autre <orig> iour vn Docteur</orig>
+                     <reg>jour un docteur</reg> dit fort bien, </l>
+                  <l n="164"> C’est <orig>veritablement</orig>
+                     <reg>véritablement</reg> la <orig>Tour</orig>
+                     <reg>tour</reg> de <orig> Babilone ,</orig>
+                     <reg>Babylone,</reg>
+                  </l>
+                  <l n="165">Car chacun y babille, et tout du long de l’aune ;</l>
+                  <l n="166">Et pour conter l' <orig> Histoire</orig>
+                     <reg>histoire</reg> où ce <orig> poinct</orig>
+                     <reg>point</reg> l’engagea … </l>
+                  <l n="167">
+                     <orig>Voila</orig>
+                     <reg>Voilà</reg> -t-il pas Monsieur qui ricane déja ? </l>
+                  <l n="168"> Allez chercher vos <orig>Fous</orig>
+                     <reg>fous</reg> qui vous donnent à <orig> ir;</orig>
+                     <reg>rire;</reg>
+                  </l>
+                  <l n="169">Et sans... Adieu, ma <orig> Bru, ie</orig>
+                     <reg>bru, je</reg> ne veux plus rien dire. </l>
+                  <l n="170">
+                     <orig>Sçachez </orig>
+                     <reg>Sachez</reg> que pour <orig> ceans </orig>
+                     <reg>céans</reg>
+                     <orig> l'</orig>
+                     <reg>j'</reg> en rabats de moitié, </l>
+                  <l n="171">Et qu'il fera beau temps, quand <orig> iy mettray le pié.</orig>
+                     <reg>je mettrai le pied.</reg>
+                  </l>
+
+                  <stage>Donnant <orig>yn</orig><reg>un</reg> soufflet à Flipote.</stage>
+
+                  <l n="172"> Allons, vous; vous <orig>resvez,</orig>
+                     <reg>rêvez,</reg> et bayez aux Corneilles ; </l>
+                  <l n="173">
+                     <orig> Iour</orig>
+                     <reg>Jour</reg> de Dieu, je <orig>sçauray </orig>
+                     <reg>saurai</reg> vous frotter les oreilles ;</l>
+                  <l n="174">Marchons, gaupe, marchons.</l>
+               </lg>
+            </sp>
+         </div>
+         
+         <figure>
+            <head>LE TARTUFFE.</head>
+            <figDesc>Une illustration qui représente un hommme (tartuffe). elle est signée Geoffroy et Allouard XIXe siècle </figDesc>
+            <graphic url="#FlammarionTartuffe12.png"/>
+         </figure>
+         
+         <div type="SCENE">
+            <head><orig>SCENE</orig><reg>Scène</reg> <orig>II</orig><reg>2</reg></head> 
+            <stage><orig>CLEANTE</orig><reg>CLÉANTE</reg>, DORINE.</stage>
+
+            <sp who="#CLEANTE">
+             <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="175"><orig>Ie</orig>
+                     <reg>Je</reg>n'y veux point aller,</l>
+                  <l n="176">De peur qu’elle ne <orig>vinst encor</orig>
+                     <reg>vînt encor</reg> me quereller ; </l>
+                  <l n="177">Que cette bonne <orig>Femme...</orig><reg>femme...</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+              <speaker> DORINE</speaker>
+               <lg>
+                  <l n="178">Ah! certes, c’est dommage,</l>
+                  <l n="179">Qu'elle ne vous <orig> oüist </orig>
+                     <reg>ouît</reg> tenir <orig>vn </orig>
+                     <reg>un</reg>
+                     <app>
+                        <lem wit="#Original"> tel langage ;</lem>
+                        <rdg wit="#Flammarion">tel langage:</rdg>
+                     </app>
+                  </l>
+                  <l n="180"> Elle vous <orig> diroit</orig>
+                     <reg>dirait</reg> bien qu’elle vous <orig> trouue </orig>
+                     <reg>trouve</reg> bon, </l>
+                  <l n="181">Et qu’elle n'est point d'âge à <orig>luy </orig>
+                     <reg>lui</reg> donner ce nom. </l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="182">Comme elle s’est pour rien contre nous échauffée!</l>
+                  <l n="183">Et que de son Tartutfe elle <orig>paroist</orig>
+                     <reg>paraît</reg> coiffée! </l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+             <speaker>DORINE</speaker>
+               <lg>
+                  <l n="184">
+                     <app>
+                        <lem wit="#Original">Oh</lem>
+                        <rdg wit="#Flammarion">Oh!</rdg>
+                     </app>
+                     <orig>vrayment,</orig>
+                     <reg>vraiment,</reg> tout cela n’est rien au <orig> pris </orig>
+                     <reg>prix</reg> du <orig> Fils;</orig>
+                     <reg>fils;</reg>
+                  </l>
+                  <l n="185"> Et si vous l'<orig> auiez veu, </orig>
+                     <reg>aviez vu</reg>
+                     <app>
+                        <lem wit="#Original">vous diriez, c’est bien pis.</lem>
+                        <rdg wit="#Flammarion">vous diriez:"C'est bien pis!"</rdg>
+                     </app>
+                  </l>
+                  <l n="186"> Nos troubles l' <orig>auoient </orig>
+                     <reg>avaient</reg> mis sur le <orig>pié d'Homme</orig>
+                     <reg>pied d'homme</reg> sage, </l>
+                  <l n="187">Et pour <orig> seruir </orig>
+                     <reg>servir</reg> son <orig>Prince,</orig>
+                     <reg>prince,</reg> il montra du courage : <app>
+                        <lem wit="#Original">Prince,il montra du courage:</lem>
+                        <rdg wit="#Flammarion">prince il montra du courage;</rdg>
+                     </app>
+                  </l>
+                  <l n="188"> Mais il est <orig> deuenu</orig>
+                     <reg>devennu</reg> comme <orig>vn</orig><reg>un</reg>homme hébété,</l>
+                  <l n="189">Depuis que de Tartuffe on le voit <orig> entesté.</orig>
+                     <reg>entêté.</reg>
+                  </l>
+                  <l n="190">Il l'appelle son <orig> Frere,</orig>
+                     <reg>frère,</reg> et l'aime dans son <orig>ame</orig>
+                     <reg>âme</reg>
+                  </l>
+                  <app>
+                     <lem wit="#Flammarion"><l n="191">Cent fois plus qu'il ne fait mère,fils,fille,
+                           et femme.</l></lem>
+                     <rdg wit="#Original"/>
+                  </app>
+                  <app>
+                     <lem wit="#Flammarion"><l n="192">C'est de tous ses secrets l'unique
+                           confident,</l></lem>
+                     <rdg wit="#Original"/>
+                  </app>
+                  <l n="193">Et de ses actions le <orig>Directeur</orig>
+                     <reg>directeur</reg> prudent. </l>
+                  <l n="194">Il le <orig>choye,</orig>
+                     <reg>choie,</reg>
+                     <app>
+                        <lem wit="#Original">il l'embrasse; </lem>
+                        <rdg wit="#Flammarion">il l'embrasse,</rdg>
+                     </app> et pour <orig> vne Maîtresse,</orig>
+                     <reg>une maîtresse,</reg>
+                  </l>
+                  <l n="195"> On ne <orig> sçauroit, </orig>
+                     <reg>saurait,</reg> je pense, <orig> auoir </orig>
+                     <reg>avoir</reg> plus de tendresse, </l>
+                  <l n="196">
+                     <orig>A</orig><reg>À</reg> table, au plus haut bout, il veut qu'il soit assis; </l>
+                  <l n="197">
+                     <orig>Auec joye</orig>
+                     <reg>Avec joie</reg> il l'y voit manger autant que six; </l>
+                  <l n="198"> Les bons morceaux de tout, il fait qu'on les <orig>luy cede;</orig>
+                     <reg>lui cède;</reg>
+                  </l>
+                  <l n="199"> Et s’il vient à <app>
+                        <lem wit="#Original">rotter,</lem>
+                        <rdg wit="#Flammarion">roter,</rdg>
+                     </app> il <app>
+                        <lem wit="#Original"> luÿ </lem>
+                        <rdg wit="#Flammarion">lui</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#Original"> dit, Dieu vous aide.</lem>
+                        <rdg wit="#Flammarion">dit:"Dieu vous aide!"</rdg>
+                     </app>
+                  </l>
+
+                  <stage> C'est <orig>vne Seruante</orig><reg>une servante</reg> qui parle.</stage>
+
+                  <l n="200"> Enfin il en est fou ; c’est son tout, son
+                        <orig>Héros;</orig><reg>héros;</reg>
+                  </l>
+                  <l n="201"> Il l'admire à tous coups, le cite à tout propos:</l>
+                  <l n="202"> Ses moindres actions <app>
+                        <lem wit="#Original"> luy</lem>
+                        <rdg wit="#Flammarion">lui</rdg>
+                     </app> semblent des miracles, </l>
+                  <l n="203">Et tous les mots qu’il dit, sont pour <app>
+                        <lem wit="#Original">luy</lem>
+                        <rdg wit="#Flammarion">lui</rdg>
+                     </app> des Oracles. </l>
+                  <l n="204">
+                     <app>
+                        <lem wit="#Original">Luy</lem>
+                        <rdg wit="#Flammarion">lui,</rdg>
+                     </app> qui <orig>connoist </orig>
+                     <reg>connaît</reg> sa dupe, et qui veut en <orig>joüir,</orig><reg>jouir</reg>
+                  </l>
+                  <l n="205">Par cent dehors <orig> fardez,</orig>
+                     <reg>fardés</reg> a l’art de <orig> l'ébloüir;</orig>
+                     <reg>l'éblouir</reg>
+                  </l>
+                  <l n="206">Son <orig>Cagotisme </orig>
+                     <reg>cagotisme</reg> en tire à toute heure des sommes, </l>
+                  <l n="207"> Et prend droit de gloser sur tous tant que
+                        <orig>noussommes.</orig><reg>nous sommes.</reg>
+                  </l>
+                  <l n="208"> Il n'est pas jusqu'au <orig> Fat,</orig>
+                     <reg>fat,</reg> qui <orig> luy</orig>
+                     <reg>lui</reg> sert de <orig> Garçon,</orig>
+                     <reg>garçon,</reg>
+                  </l>
+                  <l n="209">Qui ne se mêle aussi de nous faire leçon.</l>
+                  <l n="210"> Il vient nous sermonner auec des yeux farouches,</l>
+                  <l n="211"> Et <orig> jetter nos Rubans, nostre Rouge, </orig>
+                     <reg>jeter nos rubans, notre rouge,</reg> et nos <orig> Mouches,</orig>
+                     <reg>mouches.</reg>
+                  </l>
+                  <l n="212"> Le <orig> traistre,</orig>
+                     <reg>traître,</reg> l’autre jour, nous rompit de ses mains,</l>
+                  <l n="213">
+                     <orig>Vn Mouchoir</orig>
+                     <reg>Un mouchoir</reg> qu'il <orig> trouua </orig>
+                     <reg>trouva </reg> dans <orig> vne</orig>
+                     <reg>une</reg> Fleur des Saints;</l>
+                  <l n="214"> Disant que nous <orig> meslions, </orig>
+                     <reg>mêlions,</reg> par <orig> vn</orig>
+                     <reg>un</reg> crime <orig> efroyable,</orig>
+                     <reg>effroyable,</reg>
+                  </l>
+                  <l n="215"><orig>Auec</orig><reg>Avec</reg> la
+                        <orig>Sainteté</orig><reg>sainteté</reg>, les parures du <orig>Diable.
+                        </orig><reg>diable</reg>
+                  </l>
+               </lg>
+            </sp>
+         </div>
+
+
+         <div type="SCENE">
+           <head> <orig>SCENE</orig><reg>Scène</reg> <orig>III</orig><reg>3</reg></head>
+            <stage> ELMIRE, MARIANE, DAMIS,<orig> CLEANTE,</orig><reg>CLÉANTE,</reg> DORINE.</stage>
+
+            <sp who="#ELMIRE">
+              <speaker> ELMIRE</speaker>
+               <lg>
+                  <l n="216">Vous <orig> estes</orig>
+                     <reg>êtes</reg> bienheureux, de <orig> n’estre</orig>
+                     <reg>n'être</reg> point venu</l>
+                  <l n="217">Au discours qu’à la <orig> Porte</orig>
+                     <reg>porte</reg> elle nous a tenu. </l>
+                  <l n="218">Mais <orig> j'ay veu mon Mary;</orig>
+                     <reg>j'ai vu mon mari;</reg> comme il ne m’a point <orig> veuë,</orig>
+                     <reg>vue,</reg>
+                  </l>
+                  <l n="219">
+                     <orig> le </orig>
+                     <reg>Je</reg> veux aller là-haut <orig>atrendre sa venué.</orig>
+                     <reg>attendre sa venue.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+              <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="220">
+                     <orig>Moy,</orig><reg>Moi,</reg> je l’ <orig>attens icy</orig>
+                     <reg>attends ici</reg> pour moins d'amusement, </l>
+                  <l n="221"> Et je vais <orig>luy </orig>
+                     <reg>lui</reg> donner le bonjour seulement. </l>
+               </lg>
+            </sp>
+
+            <sp who="#DAMIS">
+               <speaker>DAMIS</speaker>
+               <lg>
+                  <l n="222">De l’hymen de ma Sœur, <orig>touchez-luy </orig>
+                     <reg>touchez-lui</reg> quelque chose. </l>
+
+                  <l n="223">
+                     <orig>l'ay </orig>
+                     <reg>J'ai</reg> soupçon que Tartuffe à son effet s'oppose; </l>
+
+                  <l n="224"> Qu'il oblige mon <orig> Pere</orig>
+                     <reg>père</reg> à des détours si <orig> grans,</orig>
+                     <reg>grands;</reg>
+                  </l>
+
+                  <l n="225"> Et vous n'ignorez pas quel <orig>interest</orig>
+                     <reg>intérêt</reg> j'y <orig>prens.</orig>
+                     <reg>prends.</reg>
+                  </l>
+
+                  <l n="226"> Si <orig>mesme</orig>
+                     <reg>même</reg> ardeur <orig>enflame,</orig>
+                     <reg>enflamme,</reg> et ma sœur, et <orig> Valere,</orig>
+                     <reg>Valère,</reg>
+                  </l>
+
+                  <l n="227"> La Sœur <orig>dé </orig>
+                     <reg>de</reg> cet <orig>Amy, </orig>
+                     <reg>ami</reg> vous le <orig>sçauez, </orig>
+                     <reg>savez,</reg> m'est <orig> chere :</orig>
+                     <reg>chère;</reg>
+                  </l>
+                  <l n="228"> Et s’il <orig>falloit...</orig><reg>fallait...</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+              <speaker>DORINE</speaker>
+               <lg>
+                  <l n="229">Il entre.</l>
+               </lg>
+            </sp>
+         </div>
+
+
+         <div type="SCENE">
+            <head><orig>SCENE</orig><reg>Scène</reg> <orig>IV</orig><reg>4</reg></head>
+            <stage> ORGON, <orig>CLEANTE,</orig><reg>CLÉANTE,</reg> DORINE.</stage>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="230">Ah! mon <orig>Frere bonj-our</orig><reg>frère bonjour</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="231">
+                     <orig>Ie sortois,</orig>
+                     <reg>Je sortais,</reg> et <orig> j'ay joye</orig>
+                     <reg>j'ai joie</reg> à vous voir de <app>
+                        <lem wit="#Original"> retour:</lem>
+                        <rdg wit="#Flammarion">retour.</rdg>
+                     </app>
+                  </l>
+                  <l n="232">La <orig>Campagne</orig><reg>campagne</reg>, à présent, n’est pas
+                     beaucoup fleurie,</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+              <speaker>ORGON</speaker>
+               <lg>
+                  <l n="233">
+                     <app>
+                        <lem wit="#Original">Dorine, </lem>
+                        <rdg wit="#Flammarion">Doriane...</rdg>
+                     </app>
+                     <orig>mon Beaufrere,</orig>
+                     <reg>Mon beau-frère,</reg> attendez, je vous prie. </l>
+                  <l n="234">Vous voulez bien souffrir, pour <orig>m'oster de soucy,</orig>
+                     <reg>m'ôter de souci,</reg>
+                  </l>
+                  <l n="235">Que je m'informe <orig> vn </orig>
+                     <reg>un</reg> peu des <orig>nouuelles d’icy.</orig>
+                     <reg>nouvelles d'ici.</reg>
+                  </l>
+                  <l n="236">Tout s'est-il, ces deux jours, passé de bonne sorte?</l>
+                  <l n="237">Qu'est-ce qu'on <orig>faitceans?</orig>
+                     <reg>fait céans?</reg> comme est-ce qu'on s'y porte ? </l>
+                  <l n="238">porte ?</l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker>DORINE</speaker>
+               <lg>
+                  <l n="238">Madame eut, <orig>auant-hyer,</orig>
+                     <reg>avant-hier,</reg> la fievre jusqu’au soir, </l>
+                  <l n="239">
+                     <orig>Auec vn</orig><reg>Avec un</reg> mal de <orig>teste</orig>
+                     <reg>tête</reg> étrange à <app>
+                        <lem wit="#Original"><orig>conceuoir,</orig></lem>
+                        <rdg wit="#Flammarion"><reg>concevoir.</reg></rdg>
+                     </app>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="240">Et Tartuffe?</l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+              <speaker> DORINE</speaker>
+               <lg>
+                  <l n="241">Tartuffe? 11 se porte à <orig>merueille,</orig><reg>merveille</reg></l>
+                  <l n="242">Gros, et gras, le teint frais, et la bouche vermeille.</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="243">Le <orig>pauure Homme!</orig><reg>pauvre homme!</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker>DORINE</speaker>
+               <lg>
+                  <l n="244">Le soir elle eut <orig>vn</orig><reg>un</reg> grand dégoût,</l>
+                  <l n="245">Et ne <orig> pût </orig>
+                     <reg>put</reg> au <orig>Soupé</orig>
+                     <reg>souper</reg> toucher à rien du tout, </l>
+                  <l n="246">Tant sa douleur de <orig>teste estoit </orig><reg>tête était</reg>
+                     encor <app>
+                        <lem wit="#Original">cruelle.</lem>
+                        <rdg wit="#Flammarion">cruelle!</rdg>
+                     </app>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="247">Et Tartuffe?</l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+              <speaker> DORINE</speaker>
+               <lg>
+                  <l n="248">11 soupa, <orig>luy </orig>
+                     <reg>lui</reg> tout seul, deuant elle, </l>
+                  <l n="249"> Et fort <orig>deuotement </orig>
+                     <reg>dévotement</reg> il mangea deux <orig>Perdris,</orig>
+                     <reg>perdrix,</reg>
+                  </l>
+                  <l n="250">
+                     <orig>Auec vne </orig><reg>Avec une</reg> moitié de <orig> Gigot
+                        </orig><reg>gigot</reg> en hachis.</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+              <speaker> ORGON</speaker>
+               <lg>
+                  <l n="251">Le <orig>pauure Homme!</orig><reg>pauvre homme!</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+             <speaker>  DORINE</speaker>
+               <lg>
+                  <l n="252">La nuit se passa toute <orig>entiere</orig><reg>entière</reg>,</l>
+                  <l n="253">Sans qu’elle <orig>pust</orig><reg>pût</reg> fermer <orig>vn</orig>
+                     <reg>UN</reg> moment la <orig> paupiere;</orig>
+                     <reg>paupière;</reg>
+                  </l>
+                  <l n="254"> Des chaleurs <orig>l'empeschoient </orig>
+                     <reg>l'empêchaient</reg> de <orig> pouuoir</orig>
+                     <reg>pouvoir</reg> sommeiller, </l>
+                  <l n="255">Et jusqu’au jour, <orig>pres</orig><reg>près</reg> d'elle, il nous
+                     fallut veiller.</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+              <speaker>ORGON</speaker>
+               <lg>
+                  <l n="256">Et Tartuffe ?</l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+              <speaker>DORINE</speaker>
+               <lg>
+                  <l n="257">Pressé d’<orig>vn</orig><reg>un</reg> sommeil
+                        <orig>agreable,</orig><reg>agréable</reg></l>
+                  <l n="258">IL passa dans sa <orig>Chambre, </orig>
+                     <reg>chambre,</reg> au sortir de la <orig> Table;</orig>
+                     <reg>table;</reg>
+                  </l>
+                  <l n="259">Et dans son <orig>Lit</orig><reg>lit</reg> bien chaud, il se mit tout
+                     soudain,</l>
+                  <l n="260">Où sans trouble il dormit jusques au lendemain.</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="261">Le <orig>pauure Homme!</orig><reg>pauvre homme!</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker>DORINE</speaker>
+               <lg>
+                  <l n="262">A la fin, par nos raisons gagnée,</l>
+                  <l n="263">Elle se résolut à souffrir la saignée,</l>
+                  <l n="264"> Et le soulagement <orig>suiuit </orig>
+                     <reg>suivit</reg> tout <orig> aussitost,</orig>
+                     <reg>aussitôt,</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="265">Et Tartuffe?</l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker>DORINE</speaker>
+               <lg>
+                  <l n="266">Il reprit courage comme il faut ;</l>
+                  <l n="267">Et contre tous les maux fortifiant son
+                     <orig>ame,</orig><reg>âme,</reg></l>
+                  <l n="268">Pour <orig> reparer </orig>
+                     <reg>réparer</reg> le sang qu'<orig>auoit</orig><reg>avait</reg> perdu
+                     Madame,</l>
+                  <l n="269">
+                     <orig>Beut</orig>
+                     <reg>But</reg> à son <orig>déjeuné,</orig>
+                     <reg>déjeuner</reg> quatre <orig> grans </orig><reg>grands</reg> coups de
+                        <orig>Vin.</orig><reg>vin.</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="270"> Le <orig>pauure Homme!</orig><reg>pauvre homme!</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#DORINE">
+               <speaker>DORINE</speaker>
+               <lg>
+                  <l n="271">Tous deux se portent bien enfin;</l>
+                  <l n="272"> Et je vais à Madame annoncer par
+                        <orig>auance,</orig><reg>avance,</reg></l>
+                  <l n="273">La part que vous prenez à sa
+                        <orig>conualescence.</orig><reg>convalescence.</reg></l>
+               </lg>
+            </sp>
+         </div>
+
+
+
+
+         <div type="SCENE">
+            <head><orig>SCENE</orig><reg>Scène</reg> <orig>V</orig><reg>5</reg></head>
+            
+            <stage> ORGON, <orig>CLEANTE.</orig><reg>CLÉANTE.</reg></stage>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="274">
+                     <orig>A vostre</orig>
+                     <reg>À votre</reg> nez, mon <orig> Frere, </orig><reg>frère,</reg> elle se rit
+                     de vous ; </l>
+                  <l n="275">Et sans <orig> auoir </orig><reg>avoir</reg> dessein de vous mettre en
+                        <orig>courrous,</orig><reg>courroux,</reg>
+                  </l>
+                  <l n="276"><orig>Ie</orig><reg>Je</reg> vous<orig> diray</orig><reg>dirai</reg>
+                     tout franc, que c’est <orig>auec</orig><reg>avec</reg> justice. </l>
+                  <l n="277"> A-t-on jamais parlé d'<orig>vn</orig><reg>un</reg> semblable caprice ? </l>
+                  <l n="278">Et se peut-il qu'<orig>vn Homme</orig><reg>Un homme</reg> ait
+                        <orig>vn</orig><reg>un</reg> charme
+                        <orig>aujourd'huy</orig><reg>aujourd'hui</reg>
+                  </l>
+                  <l n="279"><orig>A</orig><reg>À</reg>vous faire oublier toutes choses pour
+                        <orig>luy?</orig><reg>lui?</reg>
+                  </l>
+                  <l n="280">Qu'<orig>apres auoir</orig><reg>après avoir</reg> chez vous
+                        <orig>reparé</orig><reg>réparé</reg> sa
+                        <orig>misere,</orig><reg>misère,</reg>
+                  </l>
+                  <l n="281">Vous en veniez au <orig>poinct...</orig><reg>point...</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="282">
+                     <app>
+                        <lem wit="#Original">Alte</lem>
+                        <rdg wit="#Flammarion">Halte</rdg>
+                     </app> -là, mon <orig>Beaufrere,</orig><reg>beau-frère,</reg></l>
+                  <l n="283">Vous ne connoissez pas <orig>celuy</orig><reg>celui</reg>dont vous
+                     parlez.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="284"><orig>le</orig><reg>Je</reg> ne le
+                        <orig>connois</orig><reg>connais</reg> pas, <orig> puis
+                        que</orig><reg>puisque</reg> vous le voulez: </l>
+                  <l n="285">Mais enfin, pour <orig>sçauoir</orig><reg>savoir</reg> quel
+                        <orig>Homme</orig><reg>homme</reg> ce peut
+                        <orig>estre…</orig><reg>être...</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="286">Mon <orig>Frere,</orig><reg>frère,</reg> vous seriez charmé de le
+                        <orig>connestre,</orig><reg>connaître,</reg>
+                  </l>
+                  <l n="287"> Et vos <orig>rauissemens</orig><reg>ravissements</reg> ne
+                        <orig>prendroient </orig><reg>prendraient</reg> point de fin. </l>
+                  <l n="288"> C'est <orig>vn Homme</orig><reg>un homme</reg>... qui... ha...
+                        <orig>vn Homme</orig><reg>un homme</reg>... <orig>vn Homme</orig><reg>un
+                        homme</reg> enfin. </l>
+                  <l n="289">Qui suit bien ses leçons, <orig>gouste vne</orig><reg>goûte une</reg>
+                     paix profonde, </l>
+                  <l n="290">Et comme du fumier, regarde tout le monde. </l>
+                  <l n="291">
+                     <orig>Oùy,</orig><reg>Oui,</reg> je <orig> deuiens</orig><reg>deviens</reg>
+                     tout autre <orig>auec </orig><reg>avec</reg> son entretien, </l>
+                  <l n="292"> Il m'enseigne à n’<orig>auoir</orig><reg>avoir</reg> affection pour
+                     rien, </l>
+                  <l n="293">De toutes <orig>amitiez </orig><reg>amitiés</reg> il détache mon <orig>
+                        ame;</orig><reg>âme;</reg>
+                  </l>
+                  <l n="294">Et je <orig> verrois </orig><reg>verrai</reg> mourir <orig>Frere,
+                        Enfans, Mere et Femme,</orig><reg>frère,enfants,mère et femmes,</reg>
+                  </l>
+                  <l n="295">Que je m'en <orig>soucirois</orig><reg>soucierais</reg> autant que de
+                     cela.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="296">Les sentimens humains, mon <orig>Frere,</orig><reg>frère</reg> que
+                        <orig>voila</orig><reg>voilà</reg> !</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="297">
+                     <app>
+                        <lem wit="#Original"> Ha, </lem>
+                        <rdg wit="#Flammarion">Ha!</rdg>
+                     </app> si vous <orig>auiez veu</orig>
+                     <reg>aviez vu</reg> comme j’en fis rencontre, </l>
+                  <l n="298">Vous auriez pris pour <orig>luy </orig><reg>lui</reg>l'amitié que je
+                     montre.</l>
+                  <l n="299">Chaque jour à l'<orig>Eglise</orig><reg>église</reg> il <orig>venoit
+                        d’vn</orig><reg>venait d'un</reg> air <orig>dous,</orig><reg>doux,</reg>
+                  </l>
+                  <l n="300">Tout vis-à-vis de <orig>moy,</orig><reg>moi</reg> se mettre à deux
+                        <orig>genous.</orig><reg>genoux.</reg></l>
+                  <l n="301">Il <orig>attiroit</orig><reg>attirait</reg>les yeux de l'assemblée
+                        <orig>entiere,</orig><reg>entière,</reg></l>
+                  <l n="302">Par l’ardeur dont au Ciel il <orig>poussoit</orig><reg>poussait</reg>
+                     sa priere : </l>
+                  <l n="303">Il <orig>faisois </orig><reg>faisait</reg>des
+                        <orig>soûpirs,</orig><reg>soupirs</reg> de grands
+                        <orig>élancemens,</orig><reg>élancements,</reg></l>
+                  <l n="304"> Et <orig>baisoit</orig><reg>baisait</reg> humblement la terre à tous
+                        <orig>momens;</orig><reg>moments;</reg></l>
+                  <l n="305"> Et <orig>lors que</orig><reg>lorsque</reg> je
+                        <orig>sortois,</orig><reg>sortais,</reg>il me <orig>deuançoit
+                        viste,</orig><reg>devançait vite,</reg></l>
+                  <l n="306"> Pour m'aller à la <orig>Porte</orig><reg>porte</reg> offrir de
+                        l'<orig>Eau-beniste,</orig><reg>eau bénite.</reg></l>
+                  <l n="307"> Instruit par son <orig>Garçon,</orig><reg>garçon,</reg> qui dans tout
+                        <orig>l’imitoit,</orig><reg>l'imitait,</reg></l>
+                  <l n="308"> Et de son indigence, et de ce qu'il
+                        <orig>estoit,</orig><reg>était,</reg></l>
+                  <l n="309">
+                     <orig>Ie luy faisois</orig><reg>Je lui faisais</reg> des dons ; mais
+                        <orig>auec</orig><reg>avec</reg> modestie,</l>
+                  <l n="310">11 me <orig>vouloit toûjours </orig><reg>voulait toujours</reg>en
+                     rendre <orig>vne</orig><reg>une</reg> partie. </l>
+                  <l n="311"> C'est trop, me <orig>disoit</orig><reg>disait</reg>-il, c’est trop de
+                     la moitié,</l>
+                  <l n="312"><orig>Ie</orig><reg>Je</reg> ne merite pas de vous faire pitié : </l>
+                  <l n="313"> Et quand je <orig>refusois </orig><reg>refusais</reg>de le vouloir
+                     reprendre, </l>
+                  <l n="314">Aux <orig>Pauures,</orig><reg>pauvres</reg> à mes yeux, il
+                        <orig>alloit</orig><reg>fallait</reg> le répandre.</l>
+                  <l n="315">Enfin le Ciel, chez <orig>moy,</orig><reg>moi</reg> me le fit
+                     retirer,</l>
+                  <l n="316"> Et depuis ce temps-là, tout semble y
+                        <orig>prosperer.</orig><reg>prospérer.</reg>
+                  </l>
+                  <l n="317">
+                     <orig>Ie voy</orig><reg>Je vois</reg> qu'il reprend tout, et qu'à ma
+                        <orig>Femme mesme,</orig><reg>femme même,</reg>
+                  </l>
+                  <l n="318">Il prend pour mon honneur <orig>vn interest extréme ;</orig><reg>un
+                        intérêt extrême;</reg>
+                  </l>
+                  <l n="319"> 11 m'<orig>auertit</orig><reg>avertit</reg> des
+                        <orig>Gens</orig><reg>gens</reg> qui <orig>luy</orig><reg>lui</reg> font les
+                     yeux <orig>dous,</orig><reg>doux,</reg></l>
+                  <l n="320"> Et plus que <orig>moy,</orig><reg>moi,</reg> six fois, il s’en montre
+                        <orig>jalous.</orig><reg>jaloux,</reg>
+                  </l>
+                  <l n="321"> Mais vous ne croiriez point jusqu'où monte son
+                        <orig>zele;</orig><reg>zèle;</reg>
+                  </l>
+                  <l n="322"> Il s'impute à <orig>peché</orig><reg>péché</reg> la moindre bagatelle, </l>
+                  <l n="323">
+                     <orig>Vn</orig><reg>un</reg> rien presque suffit pour le scandaliser,</l>
+                  <l n="324"><orig>lusques</orig><reg>Jusque</reg>-là qu'il se vint l'autre jour
+                     accuser</l>
+                  <l n="325">D'<orig>auoir</orig><reg>avoir</reg> pris <orig>vne Puce</orig><reg>Une
+                        puce</reg> en faisant sa <orig>priere,</orig><reg>prière,</reg>
+                  </l>
+                  <l n="326"> Et de l’<orig>auoir</orig><reg>avoir</reg> tuée
+                        <orig>auec</orig><reg>avec</reg> trop de
+                        <orig>colere</orig><reg>colère</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="327">
+                     <app>
+                        <lem wit="#Original">Parbleu,</lem>
+                        <rdg wit="#Flammarion">Parbleu!</rdg>
+                     </app> vous <orig>estes</orig><reg>êtes</reg> fou, mon
+                        <orig>Frere,</orig><reg>frère,</reg> que <orig>ie croy,</orig><reg>je
+                        crois,</reg>
+                  </l>
+                  <l n="328"><orig>Auec</orig><reg>Avec</reg> de tels discours vous moquez-vous de
+                        <orig>moy ?</orig><reg>moi?</reg>
+                  </l>
+                  <l n="329">Et que <orig>pretendez</orig><reg>prétendez</reg>-vous que tout ce
+                     badinage...</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="330">Mon <orig>Frere,</orig><reg>frère,</reg> ce discours sent le
+                     libertinage. </l>
+                  <l n="331">Vous en <orig>estes vn</orig><reg>êtes un</reg>peu dans <orig>vostre
+                        ame</orig><reg>votre âme</reg> entiché; </l>
+                  <l n="332"> Et comme je vous l'<orig>ay</orig><reg>ai</reg> plus de dix fois
+                        <orig>presché,</orig><reg>prêché,</reg>
+                  </l>
+                  <l n="333">Vous vous attirerez quelque méchante affaire.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="334"><orig>Voila</orig><reg>Voilà</reg> de vos pareils le discours
+                     ordinaire. </l>
+                  <l n="335">Ils veulent que chacun soit <orig>aueugle</orig><reg>aveugle</reg>
+                     comme eux. </l>
+                  <l n="336"> C'est <orig>estre</orig><reg>être</reg> libertin, que
+                        d’<orig>auoir</orig><reg>avoir</reg> de bons yeux; </l>
+                  <l n="337">Et qui n'adore pas de vaines simagrées, </l>
+                  <l n="338">N'a <orig>ny </orig><reg>ni</reg>respect, <orig>ny foy,</orig><reg>ni
+                        foi,</reg> pour les choses sacrées. </l>
+                  <l n="339">Allez, tous vos discours ne me font point de peur; </l>
+                  <l n="340">
+                     <orig>le sçay</orig><reg>Je sais</reg> comme je parle, et le Ciel voit mon
+                     cœur.</l>
+                  <l n="341">De tous vos <orig>Façonniers</orig><reg>façonniers</reg> on n'est point
+                     les <orig>Esclaues,</orig><reg>esclaves,</reg>
+                  </l>
+                  <l n="342"> Il est de faux <orig>Deuots,</orig><reg>dévots,</reg> ainsi que de
+                     faux <orig>Braues :</orig><reg>braves;</reg>
+                  </l>
+                  <l n="343">Et comme on ne voit pas qu’où l'honneur
+                        <orig>lesconduit,</orig><reg>les conduit,</reg>
+                  </l>
+                  <l n="344"><orig> LesvraisBraues soïentceuxquifontbeaucoupdebruit</orig>Les vrais
+                     braves soient ceux qui font beaucoup de bruit, </l>
+                  <l n="345"> Les bons et vrais <orig>Deuots</orig><reg>dévots</reg> qu'on doit
+                        <orig>suiure</orig><reg>suivre</reg> à la trace, </l>
+                  <l n="346">Ne sont pas ceux aussi qui font tant de grimace. </l>
+                  <l n="347">Hé <orig>quoy</orig><reg>quoi</reg>! vous ne ferez nulle distinction </l>
+                  <l n="348"> Entre l'<orig>Hypocrisie</orig><reg>hypocrisie</reg>, et la
+                        <orig>Deuotion</orig><reg>dévotion</reg>? </l>
+                  <l n="349">Vous les voulez traiter d’<orig>vn</orig><reg>un</reg> semblable
+                     langage, </l>
+                  <l n="350">Et rendre <orig>mesme</orig><reg>même</reg> honneur au masque qu’au
+                     visage ? </l>
+                  <l n="351">
+                     <orig>Egaler</orig><reg>Égaler</reg> l’artifice, à la sincerité; </l>
+                  <l n="352">Confondre l'apparence, <orig>auec</orig><reg>avec</reg>la verité; </l>
+                  <l n="353">Estimer le <orig>Fantôme,</orig><reg>fantôme</reg> autant que la
+                        <orig>Personne;</orig><reg>personne;</reg>
+                  </l>
+                  <l n="354">Et la fausse <orig>monnoye,</orig><reg>monnaie,</reg> à l'égal de la
+                     bonne? </l>
+                  <l n="355">Les <orig>Hommes</orig><reg>hommes</reg> la pluspart, sont étrangement
+                     faits ! </l>
+                  <l n="356"> Dans la juste nature on ne les voit jamais, </l>
+                  <l n="357"> La raison a pour eux des bornes trop petites. </l>
+                  <l n="358">En chaque <orig>caractere</orig><reg>caractère</reg>ils passent ses
+                     limites, </l>
+                  <l n="359">Et la plus noble chose, ils la <orig>gastent souuent,</orig><reg>gâtent
+                        souvent</reg>
+                  </l>
+                  <l n="360"> Pour la vouloir outrer, et pousser trop
+                        <orig>auant,</orig><reg>avant</reg>
+                  </l>
+                  <l n="361"> Que cela vous soit dit en passant, mon
+                        <orig>Beaufrere.</orig><reg>beau-frère.</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="362">
+                     <orig>Oùy</orig><reg>Oui</reg>, vous <orig>estes,</orig><reg>êtes</reg>sans
+                     doute, <orig>vn Docteur</orig>
+                     <reg>un docteur</reg>qu’on <orig>révere;</orig><reg>révère;</reg>
+                  </l>
+                  <l n="363">Tout le <orig>sçauoir</orig><reg>savoir</reg> du Monde ëst chez vous
+                     retiré, </l>
+                  <l n="364">Vous <orig>estes he</orig><reg>êtes le</reg> seul
+                        <orig>Sage,</orig><reg>sage,</reg> et le seul éclairé, </l>
+                  <l n="365">
+                     <orig>Vn Oracle,</orig>
+                     <reg>un oracle</reg>
+                     <orig>vn</orig><reg>un</reg>Caton, dans le <orig>Siecle</orig><reg>siècle</reg>
+                     où nous sommes, </l>
+                  <l n="366"> Et <orig>pres </orig><reg>près</reg>de vous ce sont des
+                        <orig>Sots,</orig><reg>sots,</reg> que tous les
+                        <orig>Hommes:</orig><reg>hommes</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="367">
+                     <orig>le</orig><reg>Je</reg> ne suis point, mon
+                        <orig>Frere,</orig><reg>frère,</reg>
+                     <orig>vn Docteur réueré,</orig><reg>un docteur révéré,</reg>
+                  </l>
+                  <l n="368"> Et le <orig>Sçauoir,</orig><reg>savoir,</reg> chez
+                        <orig>moy,</orig><reg>moi,</reg> n’est pas tout retiré, </l>
+                  <l n="369">Mais en <orig>vn</orig><reg>un</reg>mot <orig>ie sçay,</orig><reg>je
+                        sais</reg>pour toute ma science, </l>
+                  <l n="370"> Du faux, <orig>auec</orig><reg>avec</reg> le
+                        <orig>vray,</orig><reg>vrai,</reg> faire la <orig>diference
+                        :</orig><reg>différence.</reg>
+                  </l>
+                  <l n="371">Et comme je ne <orig>voy</orig><reg>vois</reg> nul genre de
+                        <orig>Héros</orig><reg>héros</reg>
+                  </l>
+                  <l n="372"> Qui soient plus à priser que les parfaits
+                        <orig>Deuots;</orig><reg>dévots,</reg></l>
+                  <l n="373">Aucune chose au <orig>Monde,</orig><reg>monde</reg> et plus noble, et
+                     plus belle,</l>
+                  <l n="374">Que la sainte
+                        <orig>ferueur</orig><reg>ferveur</reg>d'<orig>vn</orig><reg>un</reg>
+                     veritable <orig>zele;</orig><reg>zèle;</reg>
+                  </l>
+                  <l n="375">Aussi ne vois-je rien qui soit plus odieux,</l>
+                  <l n="376">Que le dehors <orig>plastré</orig><reg>plâtré</reg> d’<orig>vn
+                        zele</orig><reg>un zèle</reg> spécieux :</l>
+                  <l n="377"> Que ces francs <orig>Charlatans,</orig>
+                     <reg>charlatans,</reg>que ces <orig>Deuots</orig><reg>dévots</reg> de
+                        <orig>Place,</orig><reg>place,</reg></l>
+                  <l n="378">De qui la <orig>sacrilege</orig>
+                     <reg>sacrilège</reg>et trompeuse grimace</l>
+                  <l n="379"> Abuse impunément, et se joue à leur gré,</l>
+                  <l n="380"> De ce qu'ont les <orig>Mortels</orig><reg>mortels</reg> de plus saint,
+                     et sacré.</l>
+                  <l n="381">Ces <orig>Gens,</orig><reg>gens</reg> qui par <orig>vne ame</orig>
+                     <reg>une âme</reg>à l'<orig>interest soûmise,</orig><reg>intérêt
+                     soumise,</reg></l>
+                  <l n="382"> Font de <orig>Deuotion mestier</orig><reg>dévotion métier</reg> et
+                     marchandise,</l>
+                  <l n="383"> Et veulent acheter credit, et
+                        <orig>dignitez,</orig><reg>dignités</reg></l>
+                  <l n="384"> Par le chemin du Ciel courir à leur fortune;</l>
+                  <l n="385">Qui <orig>brûlans,</orig><reg>brûlants,</reg>et <orig>prians,
+                        </orig><reg>priants,</reg>demandent chaque jour,</l>
+                  <l n="386"> Et <orig>preschent</orig><reg>prêchent</reg> la retraite au. milieu de
+                     la Cour:</l>
+                  <l n="387">Qui <orig>sçauent</orig><reg>savent</reg> ajuster leur <orig>zele
+                        auec</orig><reg>zèle avec</reg> leurs vices,</l>
+                  <l n="388">Sont prompts, vindicatifs, sans <orig>foy,</orig><reg>foi,</reg> pleins
+                     d'artifices,</l>
+                  <l n="389"> Et pour perdre quelqu'<orig>vn,</orig>
+                     <reg>un,</reg><orig>couurent</orig><reg>couvrent</reg> insolemment,</l>
+                  <l n="390">De l'<orig>interest</orig><reg>intérêt</reg> du Ciel, leur fier
+                     ressentiment ;</l>
+                  <l n="391"> D'autant plus dangereux dans leur <orig>aspre colere,</orig><reg>âpre
+                        colère</reg></l>
+                  <l n="392"> Qu'ils prennent contre nous des armes qu’on
+                        <orig>réuere,</orig><reg>révère,</reg></l>
+                  <l n="393"> Et que leur passion dont on leur <orig>sçait</orig>
+                     <reg>sait</reg>bon gré,</l>
+                  <l n="394">Veut nous assassiner <orig>auec vn</orig><reg>avec un</reg> fer
+                     sacré,</l>
+                  <l n="395"> De ce faux <orig>caractere,</orig><reg>caractère,</reg> on en voit
+                     trop <orig>paroistre ;</orig><reg>paraître;</reg></l>
+                  <l n="396">Mais les <orig>Deuots</orig><reg>dévots</reg> de cœur sont
+                        <orig>aisez</orig>
+                     <reg>aisés</reg>à <orig>connoistre.</orig><reg>connaître.</reg></l>
+                  <l n="397">
+                     <orig>Nostre Siecle,</orig>
+                     <reg>Notre siècle,</reg> mon <orig>Frere,</orig><reg>frère,</reg> en expose à
+                     nos yeux, </l>
+                  <l n="398">Qui <orig>peuuent</orig>
+                     <reg>peuvent</reg>nous <orig>seruir</orig><reg>servir</reg> d'exemples
+                     glorieux.</l>
+                  <l n="399">Regardez Ariston, regardez Periandre, </l>
+                  <l n="400"> Oronte, Alcidamas, <orig>Polidore,</orig><reg>Polydore,</reg>
+                     Clitandre :</l>
+                  <l n="401">Ge titre par aucun ne leur est <orig>debatu,</orig><reg>débattu;</reg>
+                  </l>
+                  <l n="402"> Ce ne sont point du tout <orig>Fanfarons</orig><reg>fanfarons</reg> de
+                     vertu, </l>
+                  <l n="403"> On ne voit point en eux ce faste
+                        <orig>insuportable,</orig><reg>insupportable,</reg>
+                  </l>
+                  <l n="404"> Et leur <orig>Deuotion</orig><reg>dévotion</reg> est humaine, est
+                     traitable, </l>
+                  <l n="405"> Ils ne censurent point toutes nos actions, </l>
+                  <l n="406"> Ils <orig>trouuent</orig><reg>trouvent</reg> trop d'orgueil dans ces
+                     corrections, </l>
+                  <l n="407"> Et laissant la fierté des paroles aux autres, </l>
+                  <l n="408"> C’est par leurs actions, qu’ils reprennent les
+                        <orig>nostres.</orig><reg>nôtres.</reg>
+                  </l>
+                  <l n="409">L'apparence du mal a chez eux peu
+                        d’<orig>appuy,</orig><reg>appui,</reg>
+                  </l>
+                  <l n="410">Et leur <orig>ame</orig><reg>âme</reg> est portée à juger bien
+                        d’<orig>autruy;</orig><reg>autrui;</reg>
+                  </l>
+                  <l n="411"> Point de cabale en eux, point d’intrigues à <orig>suiure
+                        ;</orig><reg>suivre;</reg></l>
+                  <l n="412">On les voit pour tous soins, se <orig>mesler</orig><reg>mêler</reg> de
+                     bien <orig>viure.</orig><reg>vivre.</reg></l>
+                  <l n="413"><orig>lamais</orig><reg>Jamais</reg> contre <orig>vn
+                        Pecheur</orig><reg>un pécheur</reg> ils n’ont d'acharnement.</l>
+                  <l n="414"> Ils attachent leur haine au <orig>Peché</orig>
+                     <reg>péché</reg>seulement, </l>
+                  <l n="415">Et ne veulent point prendre, <orig>auec vn zele
+                        extréme,</orig><reg>avec un zèle extrême,</reg></l>
+                  <l n="416"> Les <orig>interests</orig><reg>intérêts</reg> du Ciel, plus qu’il ne
+                     veut <orig>luy-mesme.</orig><reg>lui-même.</reg></l>
+                  <l n="417"><orig>Voila</orig><reg>Voilà</reg> mes <orig>Gens,
+                        voila</orig><reg>gens,voilà</reg> comme il en faut
+                        <orig>vser,</orig><reg>user,</reg>
+                  </l>
+                  <l n="418">
+                     <orig>Voila</orig><reg>Voilà</reg> l'exemple enfin qu'il se faut proposer.</l>
+                  <l n="419"><orig>Vostre Homme</orig><reg>votre homme</reg>, à dire
+                        <orig>vray,</orig><reg>vrai,</reg> n’est pas de ce
+                        <orig>modele,</orig><reg>modèle,</reg></l>
+                  <l n="420">C'est de fort bonne <orig>foy</orig><reg>foi</reg> que vous vantez son
+                        <orig>zele,</orig><reg>zèle</reg>
+                  </l>
+                  <l n="421">Mais par <orig>vn</orig><reg>un</reg> faux éclat <orig>ie</orig>
+                     <reg>je</reg>vous crois <orig>éblouy.</orig><reg>ébloui.</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="422">Monsieur mon cher <orig>Beaufrerc,</orig><reg>beau-frère,</reg>
+                     <orig> auez</orig><reg>avez</reg>-vous tout dit?</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="423">
+                     <orig>Oùy.</orig><reg>Oui.</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="424"><orig>le</orig>
+                     <reg>Je</reg>suis <orig>vostre </orig><reg>votre</reg>valet.</l>
+               </lg>
+            </sp>
+
+            <stage> Il veut s'en aller.</stage>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="425">De <orig>grace, vn</orig><reg>grâce,un</reg> mot, mon
+                        <orig>Frere,</orig><reg>frère,</reg></l>
+                  <l n="426">Laissons-là ce discours. Vous <orig>sçauez </orig><reg>savez</reg> que
+                        <orig>Valere,</orig><reg>Valère,</reg></l>
+                  <l n="427"> Pour <orig>estre vostre Gendre</orig><reg>être votre gendre</reg>, <app>
+                        <lem wit="#Original">a parole de vous.</lem>
+                        <rdg wit="#Flammarion">a parole de vous?</rdg>
+                     </app>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="428"><orig>Ouy</orig><reg>Oui</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="429">Vous aviez pris jour pour <orig>vn</orig><reg>un</reg> lien si
+                        <orig>dous.</orig><reg>doux</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="430">Il est <orig>vray.</orig><reg>vrai.</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="431">
+                     <orig>Pourquoy</orig><reg>Pourquoi</reg> donc en <orig>
+                        diferer</orig><reg>différer</reg> la <orig> feste ?</orig><reg>fête?</reg>
+                  </l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="432"><orig>le ne sçais.</orig><reg>Je ne sais.</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="433">Auriez-vous autre pensée en <orig>teste?</orig><reg>tête?</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="434">Peut-<orig>estre</orig><reg>être.</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="435">Vous voulez manquer à votre <orig>foy?</orig><reg>foi?</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="436"><orig>le</orig><reg>Je</reg> ne dis pas cela.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="437">Nul obstacle, je <orig>croy,</orig><reg>croi,</reg></l>
+                  <l n="438">Ne <orig>peut vous empescher</orig><reg>vous peut
+                     empêcher</reg>d'accomplir vos promesses.</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="439">Selon.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="440">Pour dire <orig>vn</orig><reg>un</reg> mot, faut-il tant de
+                     finesses?</l>
+                  <l n="441"><orig>Valere,</orig><reg>Valère,</reg> sur ce
+                        <orig>poinct,</orig><reg>point</reg> me fait vous visiter.</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="442">Le Ciel en soit <orig>loûé.</orig><reg>loué</reg></l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="443">Mais que <orig>luy</orig><reg>lui</reg> reporter?</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="444">Tout ce qu'il vous plaira.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="445">Mais il est necessaire</l>
+                  <l n="446"> De <orig>sçauoir</orig><reg>savoir</reg>vos desseins. Quels sont-ils
+                     donc?</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="447"> De faire</l>
+                  <l n="448">Ce que le Ciel voudra.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="449">Mais parlons tout de bon.</l>
+                  <l n="450"><orig>Valere a vostre foy.</orig><reg>Valère a votre foi.</reg> La
+                     tiendrez-vous, ou non?</l>
+               </lg>
+            </sp>
+
+            <sp who="#ORGON">
+               <speaker>ORGON</speaker>
+               <lg>
+                  <l n="451"> Adieu.</l>
+               </lg>
+            </sp>
+
+            <sp who="#CLEANTE">
+               <speaker><orig>CLEANTE</orig><reg>CLÉANTE</reg></speaker>
+               <lg>
+                  <l n="452">Pour son amour, <orig>ie</orig><reg>je</reg>crains
+                        <orig>vne</orig><reg>une</reg>
+                     <orig>disgrace,</orig><reg>disgrâce,</reg>
+                  </l>
+                  <l n="453"> Et <orig>ie</orig><reg>je</reg>dois
+                        l’<orig>auertir</orig><reg>avertir</reg>de tout ce qui se passe.</l>
+               </lg>
+            </sp>
+
+            <stage>Fin du Premier Acte.</stage>
+         </div>
+      </body>
+   </text>
+</TEI>
