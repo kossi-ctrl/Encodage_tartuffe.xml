@@ -17,7 +17,7 @@ Ed. 2009 & 1669.
 # Technologies utilisées
 
 - TEI
-- 
+  
 - REGEX
 
 ---
