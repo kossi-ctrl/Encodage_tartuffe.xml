@@ -1,10 +1,8 @@
 # Encodage_tartuffe.xml
-
 Un projet d'encodage du texte Tartuffe de Molière.
 Ed. 2009 & 1669.
 
 ---
-
 
 # Structure du projet
 
@@ -19,6 +17,7 @@ Ed. 2009 & 1669.
 # Technologies utilisées
 
 - TEI
+- 
 - REGEX
 
 ---
